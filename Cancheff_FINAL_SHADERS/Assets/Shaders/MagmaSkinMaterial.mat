@@ -21,7 +21,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Albedo:
-        m_Texture: {fileID: 2800000, guid: 7130c16fd8005b546b111d341310a9a4, type: 3}
+        m_Texture: {fileID: 2800000, guid: 828cbc76e4291fa44a2f8313093f5eb4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Albedo1:
@@ -29,7 +29,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask:
-        m_Texture: {fileID: 2800000, guid: 36be8d528a4fa024faa4680d7658642c, type: 3}
+        m_Texture: {fileID: 2800000, guid: a3e6a346c531ec14bbb3a9f646bc713d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask1:
@@ -37,7 +37,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normals:
-        m_Texture: {fileID: 2800000, guid: 11f03d9db1a617e40b7ece71f0a84f6f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 55d6b21ecb1c0e94fb74d6e4efd24d45, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normals1:
@@ -53,7 +53,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TileableFire:
-        m_Texture: {fileID: 2800000, guid: f7e96904e8667e1439548f0f86389447, type: 3}
+        m_Texture: {fileID: 2800000, guid: fa2d7296347600440844b6b788517ee3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TileableFire1:
@@ -66,12 +66,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _FireIntensity: 1.238
+    - _FireIntensity: 0.55
     - _FireIntensity1: 1.388
     - _Smoothness: 1
     - _Smoothness1: 1
     - __dirty: 0
     m_Colors:
-    - _TileSpeed: {r: -1, g: 0, b: 0, a: 0}
+    - _TileSpeed: {r: -0.5, g: 0, b: 0, a: 0}
     - _TileSpeed1: {r: -1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
