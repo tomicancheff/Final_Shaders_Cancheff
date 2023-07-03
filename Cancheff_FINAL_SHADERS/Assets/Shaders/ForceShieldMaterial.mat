@@ -66,11 +66,11 @@ Material:
     - _IntersectIntensity1: 0.69
     - _Opacity: 0.5
     - _Opacity1: 0.43
-    - _ShieldAnimSpeed: 0.79
+    - _ShieldAnimSpeed: -1.7
     - _ShieldAnimSpeed1: 1.78
-    - _ShieldDistortion: 0
+    - _ShieldDistortion: 0.0037
     - _ShieldDistortion1: 0.0017
-    - _ShieldPatternPower: 16.7
+    - _ShieldPatternPower: 27
     - _ShieldPatternPower1: 12.1
     - _ShieldPatternSize: 7
     - _ShieldPatternSize1: 10

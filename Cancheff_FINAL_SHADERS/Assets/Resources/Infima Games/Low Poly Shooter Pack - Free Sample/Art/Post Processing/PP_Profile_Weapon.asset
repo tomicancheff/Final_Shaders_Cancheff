@@ -1,5 +1,27 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8353358817631728256
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9e8b1710d96eaa49acb5f51ff1115f7, type: 3}
+  m_Name: PixelatedShaderPPPPSSettings
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  _PixelX:
+    overrideState: 1
+    value: 700
+  _PixelY:
+    overrideState: 1
+    value: 700
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22,6 +44,7 @@ MonoBehaviour:
   - {fileID: 114817739856914756}
   - {fileID: 114727731288441162}
   - {fileID: 114358518783740256}
+  - {fileID: -8353358817631728256}
 --- !u!114 &114095014996230636
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1560,22 +1583,22 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: -69.2
+    value: -100
   intensityX:
     overrideState: 1
-    value: 0.297
+    value: 0.177
   intensityY:
     overrideState: 1
-    value: 0.227
+    value: 0.169
   centerX:
     overrideState: 1
-    value: 0.003
+    value: 0
   centerY:
     overrideState: 1
-    value: 0.07
+    value: 0.23
   scale:
     overrideState: 1
-    value: 1.3
+    value: 1.14
 --- !u!114 &114817739856914756
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1603,7 +1626,7 @@ MonoBehaviour:
     value: {x: 0.5, y: 0.5}
   intensity:
     overrideState: 1
-    value: 0.345
+    value: 0.479
   smoothness:
     overrideState: 1
     value: 0.125

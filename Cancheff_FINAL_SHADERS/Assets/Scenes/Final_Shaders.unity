@@ -6473,9 +6473,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerControllerFPS
       objectReference: {fileID: 0}
+    - target: {fileID: 4044913529274317659, guid: 19eadcf8fbed56b4da77ca94c1b4145f,
+        type: 3}
+      propertyPath: volumeTrigger
+      value: 
+      objectReference: {fileID: 836103646}
+    - target: {fileID: 4044913529274317659, guid: 19eadcf8fbed56b4da77ca94c1b4145f,
+        type: 3}
+      propertyPath: m_AfterStackBundles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044913529274317659, guid: 19eadcf8fbed56b4da77ca94c1b4145f,
+        type: 3}
+      propertyPath: m_AfterStackBundles.Array.data[0].assemblyQualifiedName
+      value: UnderWaterPPSSettings, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5827704354076846068, guid: 19eadcf8fbed56b4da77ca94c1b4145f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 19eadcf8fbed56b4da77ca94c1b4145f, type: 3}
+--- !u!4 &836103646 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6864261471799679059, guid: 19eadcf8fbed56b4da77ca94c1b4145f,
+    type: 3}
+  m_PrefabInstance: {fileID: 836103645}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &837662653
 PrefabInstance:
   m_ObjectHideFlags: 0
