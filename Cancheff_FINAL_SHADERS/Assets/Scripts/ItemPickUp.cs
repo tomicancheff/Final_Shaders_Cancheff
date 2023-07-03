@@ -4,19 +4,15 @@ using UnityEngine;
 
 public class ItemPickUp : MonoBehaviour
 {
-    public AudioClip victorySound;
-    private AudioSource _audioSource;
-
-    void Start()
-    {
-        _audioSource = GetComponent<AudioSource>();
-    }
+    private bool _isCollected = false;
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (!_isCollected && other.gameObject.CompareTag("Player"))
         {
-            _audioSource.PlayOneShot(victorySound);
+            _isCollected = true;
+
+            AudioManager.instance.PickUpSound();
             gameObject.SetActive(false);
         }
     }
