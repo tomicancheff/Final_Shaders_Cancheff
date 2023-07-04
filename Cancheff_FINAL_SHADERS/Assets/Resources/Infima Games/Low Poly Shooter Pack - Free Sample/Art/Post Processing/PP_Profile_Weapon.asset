@@ -18,7 +18,7 @@ MonoBehaviour:
     value: 1
   _PixelX:
     overrideState: 1
-    value: 700
+    value: 800
   _PixelY:
     overrideState: 1
     value: 700

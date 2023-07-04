@@ -5,15 +5,23 @@ using UnityEngine;
 public class TargetMover : MonoBehaviour
 {
     [Header("Customizable Options")]
-    //Horizontal movement speed
     public float horizontalSpeed = 1f;
-    //Length of horizontal movement
     public float movementLength = 2f;
-
+    private Vector3 _initialPosition;
+    private void Start()
+    {
+        // Guardar la posición inicial del target
+        _initialPosition = transform.position;
+    }
     private void Update()
     {
-        //Move the target horizontally
-        transform.position = new Vector3(Mathf.PingPong(Time.time * horizontalSpeed, movementLength), transform.position.y, transform.position.z);
+        // Calcular la posición horizontal actual del target
+        float newPositionX = Mathf.PingPong(Time.time * horizontalSpeed, movementLength);
+        
+        // Calcular la nueva posición completa del target (incluyendo la posición inicial en Y y Z)
+        Vector3 newPosition = new Vector3(newPositionX, _initialPosition.y, _initialPosition.z);
+
+        // Asignar la nueva posición al target
+        transform.position = newPosition;
     }
-    
 }
