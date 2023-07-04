@@ -5,21 +5,34 @@ using UnityEngine.Rendering.PostProcessing;
 
 public class PostProcessingController : MonoBehaviour
 {
-    public PostProcessVolume postProcessVolume;
+    public PostProcessVolume postProcessVolume1;
+    public PostProcessVolume postProcessVolume2;
 
     private void Start()
     {
         // Desactivar el postprocesamiento al inicio
-        DeactivatePostProcessing();
+        DeactivatePostProcessing1();
+        DeactivatePostProcessing2();
     }
 
-    public void ActivatePostProcessing()
+    public void ActivatePostProcessing1()
     {
-        postProcessVolume.enabled = true;
+        postProcessVolume1.enabled = true;
     }
 
-    public void DeactivatePostProcessing()
+    public void DeactivatePostProcessing1()
     {
-        postProcessVolume.enabled = false;
+        postProcessVolume1.enabled = false;
+    }
+
+    public void ActivatePostProcessing2()
+    {
+        postProcessVolume2.enabled = true;
+        AudioManager.instance.PlaySound(AudioManager.instance.nightVisionOnSound);
+    }
+
+    public void DeactivatePostProcessing2()
+    {
+        postProcessVolume2.enabled = false;
     }
 }

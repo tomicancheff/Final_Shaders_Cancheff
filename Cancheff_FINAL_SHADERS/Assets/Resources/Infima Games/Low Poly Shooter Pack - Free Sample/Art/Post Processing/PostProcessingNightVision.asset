@@ -34,7 +34,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bb7274a8f9f58a43a7cc8a098cef235, type: 3}
   m_Name: NightVisionPPSSettings
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   enabled:
     overrideState: 1
     value: 1
@@ -51,7 +51,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
-  m_Name: PP_Profile_Weapon
+  m_Name: PostProcessingNightVision
   m_EditorClassIdentifier: 
   settings:
   - {fileID: 114095014996230636}

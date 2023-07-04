@@ -6,6 +6,7 @@ public class AudioManager : MonoBehaviour
 {
     public static AudioManager instance;
     public AudioClip pickupSound;
+    public AudioClip nightVisionOnSound; // Nueva variable para el sonido "NightVision ON"
     private AudioSource audioSource;
     private void Awake()
     {
@@ -31,4 +32,6 @@ public class AudioManager : MonoBehaviour
     {
         PlaySound(pickupSound);
     }
+    
+  
 }
