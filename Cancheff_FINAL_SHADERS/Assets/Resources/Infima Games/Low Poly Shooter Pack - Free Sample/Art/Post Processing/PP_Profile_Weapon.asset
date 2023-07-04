@@ -18,10 +18,10 @@ MonoBehaviour:
     value: 1
   _PixelX:
     overrideState: 1
-    value: 800
+    value: 4000
   _PixelY:
     overrideState: 1
-    value: 700
+    value: 2000
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45,6 +45,7 @@ MonoBehaviour:
   - {fileID: 114727731288441162}
   - {fileID: 114358518783740256}
   - {fileID: -8353358817631728256}
+  - {fileID: 3243658943278355702}
 --- !u!114 &114095014996230636
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1643,3 +1644,22 @@ MonoBehaviour:
   opacity:
     overrideState: 0
     value: 1
+--- !u!114 &3243658943278355702
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bb7274a8f9f58a43a7cc8a098cef235, type: 3}
+  m_Name: NightVisionPPSSettings
+  m_EditorClassIdentifier: 
+  active: 0
+  enabled:
+    overrideState: 1
+    value: 1
+  _Intensity1:
+    overrideState: 1
+    value: 0
