@@ -5078,7 +5078,7 @@ GameObject:
   m_Component:
   - component: {fileID: 563657133}
   - component: {fileID: 563657134}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: PPVolume 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7820,7 +7820,7 @@ GameObject:
   m_Component:
   - component: {fileID: 869841088}
   - component: {fileID: 869841087}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Post Process Volume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8319,7 +8319,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 903117570}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: 'Post Processing '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
