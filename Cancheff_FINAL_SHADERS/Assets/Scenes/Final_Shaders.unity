@@ -4982,7 +4982,7 @@ PrefabInstance:
     - target: {fileID: 2323212, guid: 62e80a053a5f7c94f9f4c90bc293e432, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 250caa4384f289e40a17aa45fa41258d, type: 2}
+      objectReference: {fileID: 2100000, guid: 61b567564a371f94aaa77d8c98a69164, type: 2}
     - target: {fileID: 10878472, guid: 62e80a053a5f7c94f9f4c90bc293e432, type: 3}
       propertyPath: m_BoundingSphereOverride.w
       value: 1e-45
@@ -5078,7 +5078,7 @@ GameObject:
   m_Component:
   - component: {fileID: 563657133}
   - component: {fileID: 563657134}
-  m_Layer: 12
+  m_Layer: 0
   m_Name: PPVolume 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7820,7 +7820,7 @@ GameObject:
   m_Component:
   - component: {fileID: 869841088}
   - component: {fileID: 869841087}
-  m_Layer: 12
+  m_Layer: 0
   m_Name: Post Process Volume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
