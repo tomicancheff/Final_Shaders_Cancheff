@@ -3884,7 +3884,7 @@ GameObject:
   - component: {fileID: 392201355}
   - component: {fileID: 392201354}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: ForceShield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8769,13 +8769,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e43e458674f895848aa860073bbf241c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.648
+  m_Volume: 0.284
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 160
+  Priority: 176
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
